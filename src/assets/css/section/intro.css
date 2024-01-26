@@ -116,3 +116,20 @@
 .intro__lines.bottom .line:nth-child(7){
     height: 1px;
 }
+
+@media (max-width: 800px){
+    .intro__inner {
+        justify-content: center;
+    }
+    .intro_lines.bottom .line {
+        display: block;
+    }
+    .intro__text .text {
+        font-size: 24px;
+    }
+}
+@media (max-width: 320px){
+    .intro__title {
+        display: none;
+    }
+}
